@@ -1,0 +1,19 @@
+{
+  "name": "魔力",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:elemental",
+  "glint": true,
+  "ingredient": {
+    "tag": "mysticalagriculture:essences/elemental"
+  },
+  "color": "FC6087",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_flame"
+  },
+  "recipes": {
+    "crafting": false,
+    "infusion": false, 
+    "reprocessor": false 
+  }
+}

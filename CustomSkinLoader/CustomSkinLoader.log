@@ -1,0 +1,39 @@
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: CustomSkinLoader 14.15.2
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: DataDir: C:\minecraft\.minecraft\versions\农业\CustomSkinLoader
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Operating System: Windows 11 (amd64) version 10.0
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Java Version: 17.0.5, Oracle Corporation
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Minecraft: unknown
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Config File: C:\minecraft\.minecraft\versions\农业\CustomSkinLoader\CustomSkinLoader.json
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Try to load config.
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Successfully load config.
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: MojangAPI
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: Legacy
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: CustomSkinAPI
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: CustomSKinAPIPlus
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: UniSkinAPI
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: ElyByAPI
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: GlitchlessAPI
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: MinecraftCapesAPI
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: WynntilsAPI
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Successfully update config.
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: version : 14.15
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: buildNumber : 8
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: enableDynamicSkull : true
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: enableTransparentSkin : true
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: forceIgnoreHttpsCertificate : false
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: forceLoadAllTextures : true
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: enableCape : true
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: threadPoolSize : 8
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: enableLogStdOut : false
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: cacheExpiry : 30
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: forceUpdateSkull : false
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: enableLocalProfileCache : false
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: enableCacheAutoClean : false
+[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: forceDisableCache : false
+[2023-01-30 15:43:36] [He__Xin/INFO] [CustomSkinLoader]: Loading He__Xin's profile.
+[2023-01-30 15:43:36] [He__Xin/INFO] [CustomSkinLoader]: 1/14 Try to load profile from 'Mojang'.
+[2023-01-30 15:43:36] [He__Xin/INFO] [CustomSkinLoader]: Default profile will be used.
+[2023-01-30 15:43:36] [He__Xin/INFO] [CustomSkinLoader]: He__Xin's profile loaded.
+[2023-01-30 15:43:36] [He__Xin/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/3a5e6580583035310c27221a17fae9b4ce4f9fabdfad56d65f5fbbd1c6b8d12e , Model: slim , CapeUrl: http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4  , Expiry: 1675064646)

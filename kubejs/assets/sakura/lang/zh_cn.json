@@ -1,0 +1,10 @@
+{
+    	"item.sakura.soysauce_bucket": "酱油桶",
+		"block.sakura.fermenter":"发酵桶",
+		"block.sakura.distiller":"蒸馏器",
+
+		"container.sakura.fermenter":"",
+		"container.sakura.distiller":""
+
+
+}

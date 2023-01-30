@@ -1,0 +1,7 @@
+{
+    "name": "§c整合包指导手册",
+    "landing_text": "从入门到入土,帮助你快速熟悉整合包内的机制和内容。",   
+    "version": 1,
+    "pause_game": true,
+    "book_texture": "patchouli:textures/gui/book_red.png"
+    }

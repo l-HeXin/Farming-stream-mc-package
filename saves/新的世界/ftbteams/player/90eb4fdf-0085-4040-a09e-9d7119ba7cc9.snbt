@@ -1,0 +1,22 @@
+{
+	id: "90eb4fdf-0085-4040-a09e-9d7119ba7cc9"
+	type: "player"
+	player_name: "He__Xin"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "He__Xin"
+		"ftbteams:description": ""
+		"ftbteams:color": "#599BFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_fake_players": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [ ]
+	extra: { }
+}

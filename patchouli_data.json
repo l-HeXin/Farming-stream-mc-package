@@ -1,0 +1,27 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "mysticalagriculture:guide": {
+      "viewedEntries": [
+        "mysticalagriculture:advances/master_infusion_crystal",
+        "mysticalagriculture:basics/infusion_crystal",
+        "mysticalagriculture:basics/resource_crops",
+        "mysticalagriculture:elemental/elemental_essences",
+        "mysticalagriculture:machines/essence_furnaces",
+        "mysticalagriculture:machines/soul_extractor",
+        "mysticalagradditions:agradditions/essence_apples",
+        "mysticalagriculture:basics/inferium_essence",
+        "mysticalagriculture:basics/essence_farmland",
+        "mysticalagriculture:basics/overworld_ores"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "patchouli:guide_book": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

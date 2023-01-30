@@ -1,0 +1,15 @@
+{
+    "block.multiblocked.item_input":"物品输入",
+    "block.multiblocked.item_output":"物品输出",
+
+    "block.multiblocked.energy_input":"能量输入",
+    "block.multiblocked.energy_output":"能量输出",
+
+    "block.multiblocked.fluid_output":"流体输出",
+    "block.multiblocked.fluid_input":"流体输入",
+
+
+
+    "itemGroup.multiblocked.all": "模块化机械?(bushi",
+    "":""
+}

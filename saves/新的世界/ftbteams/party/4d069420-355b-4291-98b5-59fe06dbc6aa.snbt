@@ -1,0 +1,31 @@
+{
+	id: "4d069420-355b-4291-98b5-59fe06dbc6aa"
+	type: "party"
+	owner: "90eb4fdf-0085-4040-a09e-9d7119ba7cc9"
+	ranks: {
+		2b204725-d849-4faa-8aab-366f8e096d71: "invited"
+		90eb4fdf-0085-4040-a09e-9d7119ba7cc9: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "He__Xin's Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#599BFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_fake_players": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1675007972471L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"He__Xin\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "90eb4fdf-0085-4040-a09e-9d7119ba7cc9", date: 1675007972477L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"msy\"}]}" }
+		{ from: "90eb4fdf-0085-4040-a09e-9d7119ba7cc9", date: 1675007972478L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Po_Ge\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1675007975168L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"msy\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "90eb4fdf-0085-4040-a09e-9d7119ba7cc9", date: 1675008485719L, text: "{\"color\":\"gold\",\"translate\":\"ftbteams.message.kicked\",\"with\":[{\"color\":\"yellow\",\"text\":\"msy\"},{\"color\":\"aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbteams info He__XinsParty#4d069420\"},\"text\":\"He__Xin's Party\"}]}" }
+	]
+	extra: { }
+}
