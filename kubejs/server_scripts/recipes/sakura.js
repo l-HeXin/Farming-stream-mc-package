@@ -1,6 +1,15 @@
-'sakura:stone_mortar'
 
 onEvent('recipes',event =>{
+    event.remove({id:'sakura:stone_mortar'})
+    event.remove({id:'sakura:plank_bamboo'})
+    //竹材
+    event.remove({id:'sakura:lumber_bamboo'})
+    event.shapeless('sakura:lumber_bamboo', '3x minecraft:bamboo')
+    
+    
+    
+    
+    //石磨
     event.custom({
         "type": "sakura:stone_mortar",
         ingredients: [
@@ -12,5 +21,14 @@ onEvent('recipes',event =>{
             Item.of('minecraft:wheat_seeds').withChance(0.3).toResultJson()
         ],
         processingTime: 100 //所用时间
+    })
+
+    //砧板
+    event.custom({
+        "type": "sakura:chopping",
+        ingredients: 
+            Ingredient.of('minecraft:wheat').toJson()
+        
+
     })
 })

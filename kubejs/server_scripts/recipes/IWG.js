@@ -61,6 +61,11 @@ event.custom({
         {
             "type": "place",
             "block": 'minecraft:water'
+        },
+        {
+            "type": "execute",
+            "command": "ftbquests change_progress @p complete 6DC9203DF98E68F5",
+            "hide": true
         }
     ]
 })
@@ -349,7 +354,7 @@ event.custom({
             "item":'mysticalagriculture:dirt_seeds',
             "contextual": {
                 "type": "chance",
-                "chance": 0.6
+                "chance": 0.7
             }
         },
             {
@@ -361,7 +366,7 @@ event.custom({
         },
         {
             "type": "execute",
-            "command": "clear @s mysticalagriculture:mgaic_seeds 1",
+            "command": "clear @s mysticalagriculture:prosperity_seed_base 1",
             "hide": false
         }]
 })
@@ -372,8 +377,6 @@ event.custom({
         {"item": 'mysticalagriculture:earth_essence'},
         {"item": 'mysticalagriculture:earth_essence'},
         {"item": 'mysticalagriculture:earth_essence'},
-        {"item": 'mysticalagriculture:water_essence'},
-        {"item": 'mysticalagriculture:water_essence'},
         {"item": 'mysticalagriculture:dirt_essence'},
         {"item": 'mysticalagriculture:dirt_essence'},
         {"item": 'mysticalagriculture:inferium_essence'},
@@ -402,14 +405,10 @@ event.custom({
         {"item": 'mysticalagriculture:inferium_essence'},
         {"item": 'mysticalagriculture:inferium_essence'},
         {"item": 'mysticalagriculture:earth_essence'},
-        {"item": 'mysticalagriculture:earth_essence'},
-        {"item": 'mysticalagriculture:earth_essence'},
         {"item": 'mysticalagriculture:water_essence'},
-        {"item": 'mysticalagriculture:water_essence'},
-        {"item": 'mysticalagriculture:water_essence'},
-        {"item": 'mysticalagriculture:dirt_essence'},
         {"item": 'mysticalagriculture:dirt_essence'},
         {"item": 'mysticalagriculture:prosperity_seed_base'},
+        {"item": 'mysticalagriculture:wood_essence'},
         {"item": 'mysticalagriculture:wood_essence'},
         {"item": 'mysticalagriculture:wood_essence'},
         {"item": 'mysticalagriculture:wood_essence'},
@@ -445,26 +444,18 @@ event.custom({
             "block": 'minecraft:stone'
         },
         {
-            "type": "damage_item"
-        },
-        {
-            "type": "execute",
-            "command": "particle minecraft:enchant ~ ~ ~ 0.1 0.1 0.1 2 500 normal @a",
-            "hide": false
-        },
-        {
             "type": "execute",
             "command": "clear @s mysticalagriculture:mgaic_essence 1",
             "hide": false
         }]
 })
-//
-/*event.custom({
-    "type": "lychee:block_interacting",
+//石头转石头精华
+event.custom({
+    "type": "lychee:block_clicking",
     "item_in": {
         "item": 'mysticalagriculture:mgaic_essence'
     },
-    "block_in": 'minecraft:dirt',
+    "block_in": 'minecraft:stone',
     "contextual": 
         {"type": "location",
         "predicate": {
@@ -475,7 +466,11 @@ event.custom({
         [
             {
             "type": "place",
-            "block": 'minecraft:stone'
+            "block": 'air'
+        },
+        {
+            "type":"drop_item",
+            "item":'mysticalagriculture:stone_essence'
         },
         {
             "type": "damage_item"
@@ -486,8 +481,7 @@ event.custom({
             "hide": false
         }]
 })
-*/
-//活化种子基地
+//活化种子基底
 event.custom({
     "type": "lychee:item_inside",
     "item_in": [
@@ -509,5 +503,6 @@ event.custom({
             "item": 'mysticalagriculture:prosperity_seed_base'
         }]
 })
+
 
 })

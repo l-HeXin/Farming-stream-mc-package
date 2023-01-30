@@ -1,0 +1,254 @@
+{
+	id: "05FB4DEC8898D92C"
+	group: ""
+	order_index: 0
+	filename: "1"
+	title: "1"
+	default_quest_shape: ""
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			x: 0.5d
+			y: 0.0d
+			id: "130E47A91CDF40D4"
+			tasks: [{
+				id: "6B5A3B0CDE6DD33F"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "558678DAB2A54B92"
+					type: "item"
+					item: "mysticalagriculture:mgaic_essence"
+					count: 16
+				}
+				{
+					id: "56D33D437EED167C"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:watering_can"
+						Count: 1b
+						tag: {
+							Water: 0b
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			hide_dependency_lines: false
+			dependencies: ["130E47A91CDF40D4"]
+			id: "6DC9203DF98E68F5"
+			tasks: [{
+				id: "2D1432344ADC423F"
+				type: "custom"
+				title: "获得水"
+				icon: "minecraft:water_bucket"
+				tags: ["water"]
+				disable_toast: true
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["6DC9203DF98E68F5"]
+			id: "44A6344723CC8F94"
+			tasks: [{
+				id: "713CDFA64D9D64F0"
+				type: "item"
+				item: "mysticalagriculture:dirt_essence"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["44A6344723CC8F94"]
+			id: "6401C98A699168A6"
+			tasks: [{
+				id: "2D801FB9F67DC7EF"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["6401C98A699168A6"]
+			id: "209EF251E876E71B"
+			tasks: [{
+				id: "61E7F15AA7AC0265"
+				type: "item"
+				item: "mysticalagriculture:prosperity_shard"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["44A6344723CC8F94"]
+			id: "1567C92D6B509797"
+			tasks: [{
+				id: "745F6F03E27E34E6"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["6DC9203DF98E68F5"]
+			id: "25FC13809C556EE5"
+			tasks: [{
+				id: "748D2D90BA26024B"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"25FC13809C556EE5"
+				"209EF251E876E71B"
+			]
+			id: "548F48951591DC74"
+			tasks: [{
+				id: "26B034708799682A"
+				type: "item"
+				item: "mysticalagriculture:prosperity_seed_base"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1567C92D6B509797"
+				"548F48951591DC74"
+			]
+			hide_text_until_complete: true
+			id: "18BEC101C34BAFC7"
+			tasks: [{
+				id: "6426B821DBD53C44"
+				type: "item"
+				item: "mysticalagriculture:dirt_seeds"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["548F48951591DC74"]
+			id: "5CC52D80FB71D2AF"
+			tasks: [{
+				id: "06442D7F3FE1D7EE"
+				type: "item"
+				item: "mysticalagriculture:wood_essence"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["5CC52D80FB71D2AF"]
+			id: "3B2830F766218823"
+			tasks: [{
+				id: "598AF949AED7C525"
+				type: "item"
+				item: "mysticalagriculture:wood_seeds"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["1567C92D6B509797"]
+			id: "41E685E6F5E97943"
+			tasks: [{
+				id: "4590F33E802FAA07"
+				type: "item"
+				item: "mysticalagriculture:stone_essence"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["41E685E6F5E97943"]
+			id: "4654581486831FDB"
+			tasks: [{
+				id: "3AFFE04F03D98979"
+				type: "item"
+				item: "mysticalagriculture:stone_seeds"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["5CC52D80FB71D2AF"]
+			id: "6F3FD8D4E309AD0F"
+			tasks: [{
+				id: "2709EB6CE5AAD55D"
+				type: "item"
+				item: "minecraft:oak_log"
+			}]
+			rewards: [{
+				id: "39E2FB7A4B8F30EA"
+				type: "item"
+				item: "minecraft:bamboo"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			dependencies: ["6401C98A699168A6"]
+			id: "1D9DEF04751242BE"
+			tasks: [{
+				id: "5E4A93C176E86EF6"
+				type: "item"
+				item: "mysticalagriculture:inferium_block"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["6401C98A699168A6"]
+			id: "7A04403B6B362784"
+			tasks: [{
+				id: "06E80025305F6E08"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			id: "51F318E3C230D6E4"
+			tasks: [{
+				id: "5D7153A88A5B0516"
+				type: "item"
+				item: "mysticalagriculture:fire_essence"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "18D0A89AFBA88CB2"
+			tasks: [{
+				id: "3DDBA9D6F5878E56"
+				type: "item"
+				item: "mysticalagriculture:fire_seeds"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

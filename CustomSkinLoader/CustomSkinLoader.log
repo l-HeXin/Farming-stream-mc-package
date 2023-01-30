@@ -1,39 +1,180 @@
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: CustomSkinLoader 14.15.2
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: DataDir: C:\minecraft\.minecraft\versions\农业\CustomSkinLoader
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Operating System: Windows 11 (amd64) version 10.0
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Java Version: 17.0.5, Oracle Corporation
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Minecraft: unknown
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Config File: C:\minecraft\.minecraft\versions\农业\CustomSkinLoader\CustomSkinLoader.json
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Try to load config.
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Successfully load config.
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: MojangAPI
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: Legacy
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: CustomSkinAPI
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: CustomSKinAPIPlus
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: UniSkinAPI
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: ElyByAPI
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: GlitchlessAPI
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: MinecraftCapesAPI
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: WynntilsAPI
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: Successfully update config.
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: version : 14.15
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: buildNumber : 8
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: enableDynamicSkull : true
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: enableTransparentSkin : true
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: forceIgnoreHttpsCertificate : false
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: forceLoadAllTextures : true
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: enableCape : true
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: threadPoolSize : 8
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: enableLogStdOut : false
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: cacheExpiry : 30
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: forceUpdateSkull : false
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: enableLocalProfileCache : false
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: enableCacheAutoClean : false
-[2023-01-30 15:43:36] [Render thread/INFO] [CustomSkinLoader]: forceDisableCache : false
-[2023-01-30 15:43:36] [He__Xin/INFO] [CustomSkinLoader]: Loading He__Xin's profile.
-[2023-01-30 15:43:36] [He__Xin/INFO] [CustomSkinLoader]: 1/14 Try to load profile from 'Mojang'.
-[2023-01-30 15:43:36] [He__Xin/INFO] [CustomSkinLoader]: Default profile will be used.
-[2023-01-30 15:43:36] [He__Xin/INFO] [CustomSkinLoader]: He__Xin's profile loaded.
-[2023-01-30 15:43:36] [He__Xin/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/3a5e6580583035310c27221a17fae9b4ce4f9fabdfad56d65f5fbbd1c6b8d12e , Model: slim , CapeUrl: http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4  , Expiry: 1675064646)
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: CustomSkinLoader 14.15.2
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: DataDir: C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Operating System: Windows 11 (amd64) version 10.0
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Java Version: 17.0.5, Oracle Corporation
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Minecraft: unknown
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Config File: C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\CustomSkinLoader.json
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Try to load config.
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Successfully load config.
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: MojangAPI
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: Legacy
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: CustomSkinAPI
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: CustomSKinAPIPlus
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: UniSkinAPI
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: ElyByAPI
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: GlitchlessAPI
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: MinecraftCapesAPI
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Add a profile loader: WynntilsAPI
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: Successfully update config.
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: version : 14.15
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: buildNumber : 8
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: enableDynamicSkull : true
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: enableTransparentSkin : true
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: forceIgnoreHttpsCertificate : false
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: forceLoadAllTextures : true
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: enableCape : true
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: threadPoolSize : 8
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: enableLogStdOut : false
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: cacheExpiry : 30
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: forceUpdateSkull : false
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: enableLocalProfileCache : false
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: enableCacheAutoClean : false
+[2023-01-30 21:52:20] [Render thread/INFO] [CustomSkinLoader]: forceDisableCache : false
+[2023-01-30 21:52:20] [He_Xin/INFO] [CustomSkinLoader]: Loading He_Xin's profile.
+[2023-01-30 21:52:20] [He_Xin/INFO] [CustomSkinLoader]: 1/14 Try to load profile from 'Mojang'.
+[2023-01-30 21:52:20] [He_Xin/DEBUG] [CustomSkinLoader]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2023-01-30 21:52:20] [He_Xin/INFO] [CustomSkinLoader]: Payload: ["He_Xin"]
+[2023-01-30 21:52:20] [He__Xin/INFO] [CustomSkinLoader]: Loading He__Xin's profile.
+[2023-01-30 21:52:20] [He__Xin/INFO] [CustomSkinLoader]: 1/14 Try to load profile from 'Mojang'.
+[2023-01-30 21:52:20] [He__Xin/INFO] [CustomSkinLoader]: Default profile will be used.
+[2023-01-30 21:52:20] [He__Xin/INFO] [CustomSkinLoader]: He__Xin's profile loaded.
+[2023-01-30 21:52:20] [He__Xin/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/3a5e6580583035310c27221a17fae9b4ce4f9fabdfad56d65f5fbbd1c6b8d12e , Model: slim , CapeUrl: http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4  , Expiry: 1675086770)
+[2023-01-30 21:52:20] [He_Xin/DEBUG] [CustomSkinLoader]: Successfully request (Response Code: 200 , Content Length: 72)
+[2023-01-30 21:52:20] [He_Xin/DEBUG] [CustomSkinLoader]: Content: [ {
+  "id" : "09b1bd1e934946e99d36df42841131c4",
+  "name" : "He_Xin"
+} ]
+[2023-01-30 21:52:20] [He_Xin/DEBUG] [CustomSkinLoader]: Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/09b1bd1e934946e99d36df42841131c4'.
+[2023-01-30 21:52:20] [He_Xin/DEBUG] [CustomSkinLoader]: Cache file found (Length: 694 , Path: 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\6adce840629c4b5ae8fdb2167d3801dbd1e72470' , Expire: 1675086768)
+[2023-01-30 21:52:20] [He_Xin/INFO] [CustomSkinLoader]: Try to load from cache 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\6adce840629c4b5ae8fdb2167d3801dbd1e72470'.
+[2023-01-30 21:52:20] [He_Xin/DEBUG] [CustomSkinLoader]: Successfully load from cache
+[2023-01-30 21:52:20] [He_Xin/DEBUG] [CustomSkinLoader]: Content: {
+  "id" : "09b1bd1e934946e99d36df42841131c4",
+  "name" : "He_Xin",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3NTA4NjczODAyNiwKICAicHJvZmlsZUlkIiA6ICIwOWIxYmQxZTkzNDk0NmU5OWQzNmRmNDI4NDExMzFjNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJIZV9YaW4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJjNDY2MmFjOGQyNDdiZWY1ZjI2ZmZhM2FmODc4MGRkNDQ1NzQ3NzM4MmE1MWFlZmViMWNmOThmZTQ1MDE5YSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+  } ]
+}
+[2023-01-30 21:52:20] [He_Xin/INFO] [CustomSkinLoader]: He_Xin's profile loaded.
+[2023-01-30 21:52:20] [He_Xin/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/d2c4662ac8d247bef5f26ffa3af8780dd4457477382a51aefeb1cf98fe45019a , Model: default , CapeUrl: http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933  , Expiry: 1675086770)
+[2023-01-30 21:52:21] [He__Xin/INFO] [CustomSkinLoader]: Cached profile will be used.
+[2023-01-30 21:52:21] [He__Xin/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/3a5e6580583035310c27221a17fae9b4ce4f9fabdfad56d65f5fbbd1c6b8d12e , Model: slim , CapeUrl: http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4  , Expiry: 1675086770)
+[2023-01-30 21:52:26] [msy/INFO] [CustomSkinLoader]: Loading msy's profile.
+[2023-01-30 21:52:26] [msy/INFO] [CustomSkinLoader]: 1/14 Try to load profile from 'Mojang'.
+[2023-01-30 21:52:26] [msy/DEBUG] [CustomSkinLoader]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2023-01-30 21:52:26] [msy/INFO] [CustomSkinLoader]: Payload: ["msy"]
+[2023-01-30 21:52:27] [msy/DEBUG] [CustomSkinLoader]: Successfully request (Response Code: 200 , Content Length: 69)
+[2023-01-30 21:52:27] [msy/DEBUG] [CustomSkinLoader]: Content: [ {
+  "id" : "ba2d5196165548d69ae6e6103db7851d",
+  "name" : "MSY"
+} ]
+[2023-01-30 21:52:27] [msy/DEBUG] [CustomSkinLoader]: Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/ba2d5196165548d69ae6e6103db7851d'.
+[2023-01-30 21:52:28] [msy/DEBUG] [CustomSkinLoader]: Successfully request (Response Code: 200 , Content Length: 571)
+[2023-01-30 21:52:28] [msy/DEBUG] [CustomSkinLoader]: Saved to cache (Length: 571 , Path: 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\98b50f5de5247cd229c8ce10d1eb880ab05902d2' , Expire: 1675086778)
+[2023-01-30 21:52:28] [msy/DEBUG] [CustomSkinLoader]: Content: {
+  "id" : "ba2d5196165548d69ae6e6103db7851d",
+  "name" : "MSY",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3NTA4Njc0Nzg5MSwKICAicHJvZmlsZUlkIiA6ICJiYTJkNTE5NjE2NTU0OGQ2OWFlNmU2MTAzZGI3ODUxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNU1kiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2I2MGExZjZkNTYyZjUyYWFlYmJmMTQzNGYxZGUxNDc5MzNhM2FmZmUwZTc2NGZhNDllYTA1NzUzNjYyM2NkMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+  } ]
+}
+[2023-01-30 21:52:28] [msy/INFO] [CustomSkinLoader]: 2/14 Try to load profile from 'LittleSkin'.
+[2023-01-30 21:52:28] [msy/DEBUG] [CustomSkinLoader]: Try to request 'https://littleskin.cn/csl/msy.json'.
+[2023-01-30 21:52:28] [msy/DEBUG] [CustomSkinLoader]: Successfully request (Response Code: 304 , Content Length: -1)
+[2023-01-30 21:52:28] [msy/DEBUG] [CustomSkinLoader]: Cache file found (Length: 179 , Path: 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\be46144501ee6f373e861475f39d46b8d416af79' , Expire: 0)
+[2023-01-30 21:52:28] [msy/INFO] [CustomSkinLoader]: Try to load from cache 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\be46144501ee6f373e861475f39d46b8d416af79'.
+[2023-01-30 21:52:28] [msy/DEBUG] [CustomSkinLoader]: Successfully load from cache
+[2023-01-30 21:52:28] [msy/DEBUG] [CustomSkinLoader]: Content: {"username":"msy","skins":{"default":"0b9d0ad50cdf1acea9b610bf247d9e7ea79deb1678cccd0dab2550f7f8463a2b"},"cape":"843954676f6ee778c5408f1831dab0f0a32692c02520314f572afcc522f9e429"}
+[2023-01-30 21:52:28] [msy/INFO] [CustomSkinLoader]: msy's profile loaded.
+[2023-01-30 21:52:28] [msy/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/3b60a1f6d562f52aaebbf1434f1de147933a3affe0e764fa49ea057536623cd3 , Model: slim , CapeUrl: https://littleskin.cn/csl/textures/843954676f6ee778c5408f1831dab0f0a32692c02520314f572afcc522f9e429  , Expiry: 1675086778)
+[2023-01-30 21:52:28] [msy/INFO] [CustomSkinLoader]: Cached profile will be used.
+[2023-01-30 21:52:28] [msy/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/3b60a1f6d562f52aaebbf1434f1de147933a3affe0e764fa49ea057536623cd3 , Model: slim , CapeUrl: https://littleskin.cn/csl/textures/843954676f6ee778c5408f1831dab0f0a32692c02520314f572afcc522f9e429  , Expiry: 1675086778)
+ Expire: 1675086777)
+[2023-01-30 21:52:27] [msy/DEBUG] [CustomSkinLoader]: Content: {
+  "id" : "ba2d5196165548d69ae6e6103db7851d",
+  "name" : "MSY",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3NTA4Njc0Nzg5MSwKICAicHJvZmlsZUlkIiA6ICJiYTJkNTE5NjE2NTU0OGQ2OWFlNmU2MTAzZGI3ODUxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNU1kiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2I2MGExZjZkNTYyZjUyYWFlYmJmMTQzNGYxZGUxNDc5MzNhM2FmZmUwZTc2NGZhNDllYTA1NzUzNjYyM2NkMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+  } ]
+}
+[2023-01-30 21:52:27] [msy/INFO] [CustomSkinLoader]: 2/14 Try to load profile from 'LittleSkin'.
+[2023-01-30 21:52:27] [msy/DEBUG] [CustomSkinLoader]: Try to request 'https://littleskin.cn/csl/msy.json'.
+[2023-01-30 21:52:28] [msy/DEBUG] [CustomSkinLoader]: Successfully request (Response Code: 304 , Content Length: -1)
+[2023-01-30 21:52:28] [msy/DEBUG] [CustomSkinLoader]: Cache file found (Length: 179 , Path: 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\be46144501ee6f373e861475f39d46b8d416af79' , Expire: 0)
+[2023-01-30 21:52:28] [msy/INFO] [CustomSkinLoader]: Try to load from cache 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\be46144501ee6f373e861475f39d46b8d416af79'.
+[2023-01-30 21:52:28] [msy/DEBUG] [CustomSkinLoader]: Successfully load from cache
+[2023-01-30 21:52:28] [msy/DEBUG] [CustomSkinLoader]: Content: {"username":"msy","skins":{"default":"0b9d0ad50cdf1acea9b610bf247d9e7ea79deb1678cccd0dab2550f7f8463a2b"},"cape":"843954676f6ee778c5408f1831dab0f0a32692c02520314f572afcc522f9e429"}
+[2023-01-30 21:52:28] [msy/INFO] [CustomSkinLoader]: msy's profile loaded.
+[2023-01-30 21:52:28] [msy/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/3b60a1f6d562f52aaebbf1434f1de147933a3affe0e764fa49ea057536623cd3 , Model: slim , CapeUrl: https://littleskin.cn/csl/textures/843954676f6ee778c5408f1831dab0f0a32692c02520314f572afcc522f9e429  , Expiry: 1675086778)
+[2023-01-30 21:52:28] [msy/INFO] [CustomSkinLoader]: Cached profile will be used.
+[2023-01-30 21:52:28] [msy/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/3b60a1f6d562f52aaebbf1434f1de147933a3affe0e764fa49ea057536623cd3 , Model: slim , CapeUrl: https://littleskin.cn/csl/textures/843954676f6ee778c5408f1831dab0f0a32692c02520314f572afcc522f9e429  , Expiry: 1675086778)
+[2023-01-30 21:52:41] [He__Xin/INFO] [CustomSkinLoader]: Loading He__Xin's profile.
+[2023-01-30 21:52:41] [He__Xin/INFO] [CustomSkinLoader]: 1/14 Try to load profile from 'Mojang'.
+[2023-01-30 21:52:41] [He__Xin/INFO] [CustomSkinLoader]: Default profile will be used.
+[2023-01-30 21:52:41] [He__Xin/INFO] [CustomSkinLoader]: He__Xin's profile loaded.
+[2023-01-30 21:52:41] [He__Xin/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/3a5e6580583035310c27221a17fae9b4ce4f9fabdfad56d65f5fbbd1c6b8d12e , Model: slim , CapeUrl: http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4  , Expiry: 1675086791)
+[2023-01-30 21:53:13] [Po_Ge/INFO] [CustomSkinLoader]: Loading Po_Ge's profile.
+[2023-01-30 21:53:13] [Po_Ge/INFO] [CustomSkinLoader]: 1/14 Try to load profile from 'Mojang'.
+[2023-01-30 21:53:13] [Po_Ge/DEBUG] [CustomSkinLoader]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2023-01-30 21:53:13] [Po_Ge/INFO] [CustomSkinLoader]: Payload: ["Po_Ge"]
+[2023-01-30 21:53:13] [Po_Ge/DEBUG] [CustomSkinLoader]: Successfully request (Response Code: 200 , Content Length: 71)
+[2023-01-30 21:53:13] [Po_Ge/DEBUG] [CustomSkinLoader]: Content: [ {
+  "id" : "2b204725d8494faa8aab366f8e096d71",
+  "name" : "po_ge"
+} ]
+[2023-01-30 21:53:13] [Po_Ge/DEBUG] [CustomSkinLoader]: Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/2b204725d8494faa8aab366f8e096d71'.
+[2023-01-30 21:53:14] [Po_Ge/DEBUG] [CustomSkinLoader]: Successfully request (Response Code: 200 , Content Length: 577)
+[2023-01-30 21:53:14] [Po_Ge/DEBUG] [CustomSkinLoader]: Saved to cache (Length: 577 , Path: 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\0d7a6759cd89033621e62d7110f34a2c19502fea' , Expire: 1675086824)
+[2023-01-30 21:53:14] [Po_Ge/DEBUG] [CustomSkinLoader]: Content: {
+  "id" : "2b204725d8494faa8aab366f8e096d71",
+  "name" : "po_ge",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3NTA4Njc5NDUwNywKICAicHJvZmlsZUlkIiA6ICIyYjIwNDcyNWQ4NDk0ZmFhOGFhYjM2NmY4ZTA5NmQ3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJwb19nZSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MmJjMWE2MTU1YzU0Yzk2NWVmMjMyMTRkMGIyNmIzMmUxMzM2NzRkZTc3NDUzMjE3NGQ1ZGJiNzc1M2Y5MDAwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+  } ]
+}
+[2023-01-30 21:53:14] [Po_Ge/INFO] [CustomSkinLoader]: 2/14 Try to load profile from 'LittleSkin'.
+[2023-01-30 21:53:14] [Po_Ge/DEBUG] [CustomSkinLoader]: Try to request 'https://littleskin.cn/csl/Po_Ge.json'.
+[2023-01-30 21:53:14] [Po_Ge/DEBUG] [CustomSkinLoader]: Successfully request (Response Code: 304 , Content Length: -1)
+[2023-01-30 21:53:14] [Po_Ge/DEBUG] [CustomSkinLoader]: Cache file found (Length: 178 , Path: 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\ce89b0038dfb6233c19304b9f945eeed4424d716' , Expire: 0)
+[2023-01-30 21:53:14] [Po_Ge/INFO] [CustomSkinLoader]: Try to load from cache 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\ce89b0038dfb6233c19304b9f945eeed4424d716'.
+[2023-01-30 21:53:14] [Po_Ge/DEBUG] [CustomSkinLoader]: Successfully load from cache
+[2023-01-30 21:53:14] [Po_Ge/DEBUG] [CustomSkinLoader]: Content: {"username":"Po_Ge","skins":{"slim":"04a4f33bbe319641971aab514bd5456e7e7b9cd4f6529edb9994f1e97539f164"},"cape":"ce2f26f3f90cbe4c8a40690cba5418ce404d8607c164b585716d121ce46a7f01"}
+[2023-01-30 21:53:14] [Po_Ge/INFO] [CustomSkinLoader]: Po_Ge's profile loaded.
+[2023-01-30 21:53:14] [Po_Ge/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/62bc1a6155c54c965ef23214d0b26b32e133674de774532174d5dbb7753f9000 , Model: slim , CapeUrl: https://littleskin.cn/csl/textures/ce2f26f3f90cbe4c8a40690cba5418ce404d8607c164b585716d121ce46a7f01  , Expiry: 1675086824)
+[2023-01-30 21:53:14] [Po_Ge/INFO] [CustomSkinLoader]: Cached profile will be used.
+[2023-01-30 21:53:14] [Po_Ge/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/62bc1a6155c54c965ef23214d0b26b32e133674de774532174d5dbb7753f9000 , Model: slim , CapeUrl: https://littleskin.cn/csl/textures/ce2f26f3f90cbe4c8a40690cba5418ce404d8607c164b585716d121ce46a7f01  , Expiry: 1675086824)
+[2023-01-30 22:50:37] [msy/INFO] [CustomSkinLoader]: Loading msy's profile.
+[2023-01-30 22:50:37] [msy/INFO] [CustomSkinLoader]: 1/14 Try to load profile from 'Mojang'.
+[2023-01-30 22:50:37] [msy/DEBUG] [CustomSkinLoader]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2023-01-30 22:50:37] [msy/INFO] [CustomSkinLoader]: Payload: ["msy"]
+[2023-01-30 22:50:38] [msy/DEBUG] [CustomSkinLoader]: Successfully request (Response Code: 200 , Content Length: 69)
+[2023-01-30 22:50:38] [msy/DEBUG] [CustomSkinLoader]: Content: [ {
+  "id" : "ba2d5196165548d69ae6e6103db7851d",
+  "name" : "MSY"
+} ]
+[2023-01-30 22:50:38] [msy/DEBUG] [CustomSkinLoader]: Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/ba2d5196165548d69ae6e6103db7851d'.
+[2023-01-30 22:50:38] [msy/DEBUG] [CustomSkinLoader]: Successfully request (Response Code: 200 , Content Length: 571)
+[2023-01-30 22:50:38] [msy/DEBUG] [CustomSkinLoader]: Saved to cache (Length: 571 , Path: 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\98b50f5de5247cd229c8ce10d1eb880ab05902d2' , Expire: 1675090268)
+[2023-01-30 22:50:38] [msy/DEBUG] [CustomSkinLoader]: Content: {
+  "id" : "ba2d5196165548d69ae6e6103db7851d",
+  "name" : "MSY",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY3NTA5MDIzNDUyNCwKICAicHJvZmlsZUlkIiA6ICJiYTJkNTE5NjE2NTU0OGQ2OWFlNmU2MTAzZGI3ODUxZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNU1kiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2I2MGExZjZkNTYyZjUyYWFlYmJmMTQzNGYxZGUxNDc5MzNhM2FmZmUwZTc2NGZhNDllYTA1NzUzNjYyM2NkMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+  } ]
+}
+[2023-01-30 22:50:38] [msy/INFO] [CustomSkinLoader]: 2/14 Try to load profile from 'LittleSkin'.
+[2023-01-30 22:50:38] [msy/DEBUG] [CustomSkinLoader]: Try to request 'https://littleskin.cn/csl/msy.json'.
+[2023-01-30 22:50:38] [msy/DEBUG] [CustomSkinLoader]: Successfully request (Response Code: 304 , Content Length: -1)
+[2023-01-30 22:50:38] [msy/DEBUG] [CustomSkinLoader]: Cache file found (Length: 179 , Path: 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\be46144501ee6f373e861475f39d46b8d416af79' , Expire: 0)
+[2023-01-30 22:50:38] [msy/INFO] [CustomSkinLoader]: Try to load from cache 'C:\minecraft\.minecraft\versions\Farming-stream-mc-package\CustomSkinLoader\caches\be46144501ee6f373e861475f39d46b8d416af79'.
+[2023-01-30 22:50:38] [msy/DEBUG] [CustomSkinLoader]: Successfully load from cache
+[2023-01-30 22:50:38] [msy/DEBUG] [CustomSkinLoader]: Content: {"username":"msy","skins":{"default":"0b9d0ad50cdf1acea9b610bf247d9e7ea79deb1678cccd0dab2550f7f8463a2b"},"cape":"843954676f6ee778c5408f1831dab0f0a32692c02520314f572afcc522f9e429"}
+[2023-01-30 22:50:38] [msy/INFO] [CustomSkinLoader]: msy's profile loaded.
+[2023-01-30 22:50:38] [msy/INFO] [CustomSkinLoader]: (SkinUrl: http://textures.minecraft.net/texture/3b60a1f6d562f52aaebbf1434f1de147933a3affe0e764fa49ea057536623cd3 , Model: slim , CapeUrl: https://littleskin.cn/csl/textures/843954676f6ee778c5408f1831dab0f0a32692c02520314f572afcc522f9e429  , Expiry: 1675090268)

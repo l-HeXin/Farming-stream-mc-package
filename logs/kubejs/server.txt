@@ -1,32 +1,33 @@
-[15:43:20] [INFO ] Loaded script server_scripts:event/block_break_event.js in 0.0 s
-[15:43:20] [INFO ] Loaded script server_scripts:item_modify.js in 0.001 s
-[15:43:20] [INFO ] Loaded script server_scripts:recipes/IWG.js in 0.01 s
-[15:43:20] [INFO ] Loaded script server_scripts:recipes/Mystical Agriculture.js in 0.003 s
-[15:43:20] [INFO ] Loaded script server_scripts:recipes/sakura.js in 0.001 s
-[15:43:20] [INFO ] Loaded script server_scripts:tags.js in 0.002 s
-[15:43:20] [INFO ] Loaded 6/6 KubeJS server scripts in 0.026 s
-[15:43:20] [INFO ] Scripts loaded
-[15:43:20] [INFO ] Scanning recipes...
-[15:43:22] [INFO ] [items] Found 654 tags, added 10 objects, removed 0 objects
-[15:43:22] [INFO ] [items] Found 654 tags, added 10 objects, removed 0 objects
-[15:43:23] [WARN ] Failed to parse recipe 'wyml:jungle_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:jungle_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe wyml:jungle_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:jungle_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe 'wyml:dark_oak_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:dark_oak_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe wyml:dark_oak_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:dark_oak_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe 'wyml:oak_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:oak_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe wyml:oak_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:oak_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe 'wyml:acacia_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:acacia_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe wyml:acacia_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:acacia_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe 'wyml:warped_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:warped_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe wyml:warped_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:warped_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe 'wyml:spruce_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:spruce_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe wyml:spruce_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:spruce_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe 'wyml:crimson_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:crimson_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe wyml:crimson_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:crimson_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe 'wyml:birch_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:birch_fence_gate'
-[15:43:23] [WARN ] Failed to parse recipe wyml:birch_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:birch_fence_gate'
-[15:43:23] [INFO ] Found 6091 recipes and 0 failed recipes in 210.2 ms
-[15:43:23] [INFO ] Posted recipe events in 19.43 ms
-[15:43:24] [INFO ] Modified & removed recipes in 46.58 ms
-[15:43:24] [INFO ] Added recipes in 27.10 ms
-[15:43:24] [INFO ] Added 20 recipes, removed 761 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[00:05:19] [INFO ] Loaded script server_scripts:event/ftbquest.js in 0.0 s
+[00:05:19] [INFO ] Loaded script server_scripts:item_modify.js in 0.0 s
+[00:05:19] [INFO ] Loaded script server_scripts:recipes/IWG.js in 0.0 s
+[00:05:19] [INFO ] Loaded script server_scripts:recipes/minecraft.js in 0.0 s
+[00:05:19] [INFO ] Loaded script server_scripts:recipes/Mystical Agriculture.js in 0.0 s
+[00:05:19] [INFO ] Loaded script server_scripts:recipes/sakura.js in 0.0 s
+[00:05:19] [INFO ] Loaded script server_scripts:tags.js in 0.0 s
+[00:05:19] [INFO ] Loaded 7/7 KubeJS server scripts in 0.004 s
+[00:05:19] [INFO ] Scripts loaded
+[00:05:19] [INFO ] Scanning recipes...
+[00:05:20] [INFO ] [items] Found 654 tags, added 10 objects, removed 0 objects
+[00:05:20] [INFO ] [items] Found 654 tags, added 10 objects, removed 0 objects
+[00:05:21] [WARN ] Failed to parse recipe 'wyml:jungle_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:jungle_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe wyml:jungle_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:jungle_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe 'wyml:dark_oak_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:dark_oak_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe wyml:dark_oak_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:dark_oak_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe 'wyml:oak_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:oak_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe wyml:oak_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:oak_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe 'wyml:acacia_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:acacia_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe wyml:acacia_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:acacia_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe 'wyml:warped_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:warped_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe wyml:warped_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:warped_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe 'wyml:spruce_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:spruce_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe wyml:spruce_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:spruce_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe 'wyml:crimson_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:crimson_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe wyml:crimson_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:crimson_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe 'wyml:birch_fence_gate[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'wyml:birch_fence_gate'
+[00:05:21] [WARN ] Failed to parse recipe wyml:birch_fence_gate[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'wyml:birch_fence_gate'
+[00:05:21] [INFO ] Found 6091 recipes and 0 failed recipes in 68.99 ms
+[00:05:21] [INFO ] Posted recipe events in 4.205 ms
+[00:05:21] [INFO ] Modified & removed recipes in 19.95 ms
+[00:05:21] [INFO ] Added recipes in 439.0 μs
+[00:05:21] [INFO ] Added 23 recipes, removed 765 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
