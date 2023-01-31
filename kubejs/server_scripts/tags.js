@@ -7,5 +7,9 @@ onEvent('tags.items', e =>{
         'mysticalagriculture:water_seeds','mysticalagriculture:water_essence',
         'mysticalagriculture:fire_seeds','mysticalagriculture:fire_essence'
     ])
+    e.add("all",
+    [
+        '@minecraft','@botania','@mysticalagriculture','@mekanism','@mysticalagradditions','sakura:sakuraleaves','@quark','@ftbquests','@multiblocked','@kubejs'
+    ])
 
 })

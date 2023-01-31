@@ -32,6 +32,7 @@ event.custom({
         "block_in": 'minecraft:dirt',
         "contextual": [
             {"type":"is_sneaking",},
+            
             {"type": "location",
             "predicate": {
                 "dimension": "overworld",
@@ -43,6 +44,42 @@ event.custom({
                 "type": "place",
                 "block": 'minecraft:farmland'
             }
+})
+//右键雪
+event.custom({
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "air"
+    },
+    "block_in": 'minecraft:snow',
+    "contextual": [
+        {"type":"is_sneaking",},
+        {"type": "location",
+        "predicate": {
+            "dimension": "overworld",
+            }
+        }],
+    "post": [
+            {
+                "type": "place",
+                "block": 'minecraft:air'},
+            {
+                "type": "drop_item",
+                "item": 'minecraft:snowball'
+            },
+            {
+                "type": "drop_item",
+                "item": 'minecraft:snowball',
+                "contextual": {
+                    "type": "chance",
+                    "chance": 0.8
+                }
+            },
+            {
+                "type": "execute",
+                "command": "effect give @s minecraft:mining_fatigue 5 3",
+                "hide": true
+            }]
 })
 //水
 event.custom({
