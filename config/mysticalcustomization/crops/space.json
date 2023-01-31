@@ -1,0 +1,20 @@
+{
+    "name": "空间精华",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:elemental",
+    "glint": true,
+    "ingredient": {
+      "tag": "mysticalagriculture:essences/elemental"
+    },
+    "color": "000000",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_flame"
+    },
+    "crux": "minecraft:cobblestone",
+    "recipes": {
+      "crafting": false,
+      "infusion": false, 
+      "reprocessor": false 
+    }
+  }
