@@ -22,13 +22,38 @@ onEvent('recipes',event =>{
         ],
         processingTime: 100 //所用时间
     })
-
     //砧板
-    event.custom({
+    event.custom(
+    {
         "type": "sakura:chopping",
-        ingredients: 
-            Ingredient.of('minecraft:wheat').toJson()
-        
+        "ingredient": [
+          {
+            "item": "minecraft:cod"
+          },
+          {
+            "item": "minecraft:salmon"
+          },
+          {
+            "item": "minecraft:tropical_fish"
+          }
+        ],
+        "tool": {
+          "tag": "sakura:tools/knives/fish"
+        },
+        "result": {
+          "item": 'kubejs:magic_fluid_1_bucket'
+        },
+        "byproducts": [
+          {
+            "item": 'kubejs:magic_fluid_1_bucket'
+          },
+          {
+            "item": "minecraft:bone_meal",
+            "chance": 0.5
+          }
+        ],
+        "experience": 1.0,
+        "recipeTime": 1
+      })
 
-    })
 })

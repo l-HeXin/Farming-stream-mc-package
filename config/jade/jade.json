@@ -3,14 +3,14 @@
     "displayTooltip": true,
     "displayBlocks": true,
     "displayEntities": true,
-    "displayMode": "TOGGLE",
+    "displayMode": "LITE",
     "hideFromDebug": true,
-    "iconMode": "TOP",
+    "iconMode": "CENTERED",
     "enableTextToSpeech": false,
     "ttsMode": "PRESS",
     "maxHealthForRender": 40,
     "maxHeartsPerLine": 10,
-    "fluidMode": "NONE",
+    "fluidMode": "SOURCE_ONLY",
     "reachDistance": 0.0,
     "debug": false,
     "hintOverlayToggle": true
@@ -63,7 +63,7 @@
           "textShadow": true
         }
       },
-      "activeTheme": "jade:dark"
+      "activeTheme": "jade:top"
     },
     "autoScaleThreshold": 0.5
   },

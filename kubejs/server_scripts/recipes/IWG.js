@@ -151,7 +151,7 @@ event.custom({
             "item": 'minecraft:dirt'
         }]
 })
-//活化水晶原矿
+//活化水晶碎片
 event.custom({
     "type": "lychee:item_inside",
     "item_in": [
@@ -172,80 +172,10 @@ event.custom({
     },
     "post": [{
             "type": "drop_item",
-            "item": 'mysticalagriculture:prosperity_ore'
+            "item": 'mysticalagriculture:prosperity_shard'
         }]
 })
-//活化水晶碎片
-event.custom({
-    "type": "lychee:block_clicking",
-    "item_in": {
-        "item": "mysticalagriculture:mgaic_essence"
-    },
-    "block_in": 'mysticalagriculture:prosperity_ore',
-    "contextual": 
-        {"type": "location",
-        "predicate": {
-            "dimension": "overworld",
-        }
-    },
-    "post": 
-        [
-            {"type":"drop_item",
-            "item":'mysticalagriculture:prosperity_shard',
-        },
-            {"type":"drop_item",
-            "item":'mysticalagriculture:prosperity_shard',
-        },
-            {
-            "type": "place",
-            "block": 'air'
-        },
-        {
-            "type": "damage_item"
-        },
-        {
-            "type": "execute",
-            "command": "clear @s mysticalagriculture:mgaic_essence 1",
-            "hide": false
-        }
-    ]
-})
-event.custom({
-    "type": "lychee:block_clicking",
-    "item_in": {
-        "item": "mysticalagriculture:mgaic_essence"
-    },
-    "block_in": 'mysticalagriculture:prosperity_ingot_block',
-    "contextual": 
-        {"type": "location",
-        "predicate": {
-            "dimension": "overworld",
-        }
-    },
-    "post": 
-        [
-            {"type":"drop_item",
-            "item":'mysticalagriculture:prosperity_shard'
-        },
-            {
-            "type": "place",
-            "block": 'air',
-            "contextual": {
-                "type": "chance",
-                "chance": 0.05
-            }
-        },
-        {
-            "type": "damage_item"
-        },
-        {
-            "type": "execute",
-            "command": "clear @s mysticalagriculture:mgaic_essence 1",
-            "hide": false
-        }
-    ]
-})
-//下级精华矿石
+//下级精华
 event.custom({
     "type": "lychee:item_inside",
     "item_in": [
@@ -262,43 +192,7 @@ event.custom({
     },
     "post": [{
             "type": "drop_item",
-            "item": 'mysticalagriculture:inferium_ore'
-        }]
-})
-//下级精华
-event.custom({
-    "type": "lychee:block_clicking",
-    "item_in": {
-        "item": "mysticalagriculture:mgaic_essence"
-    },
-    "block_in": 'mysticalagriculture:inferium_ore',
-    "contextual": 
-        {"type": "location",
-        "predicate": {
-            "dimension": "overworld",
-        }
-    },
-    "post": 
-        [
-            {"type":"drop_item",
-            "item":'mysticalagriculture:inferium_essence'
-        },
-            {"type":"drop_item",
-            "item":'mysticalagriculture:inferium_essence'
-        },
-            {
-            "type": "place",
-            "block": 'air'
-        },
-        {
-            "type": "damage_item"
-        },
-        {
-            "type": "execute",
-            "command": "clear @s mysticalagriculture:mgaic_essence 1",
-            "hide": false
-        }
-    ]
+            "item": 'mysticalagriculture:inferium_essence'}]
 })
 event.custom({
     "type": "lychee:block_clicking",
