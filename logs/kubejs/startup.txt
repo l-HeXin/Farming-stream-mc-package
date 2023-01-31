@@ -1,3 +1,0 @@
-[02:19:24] [INFO ] Loaded script startup_scripts:fluid_registry.js in 0.198 s
-[02:19:24] [INFO ] Loaded script startup_scripts:item_registry.js in 0.001 s
-[02:19:24] [INFO ] Loaded 2/2 KubeJS startup scripts in 2.467 s
