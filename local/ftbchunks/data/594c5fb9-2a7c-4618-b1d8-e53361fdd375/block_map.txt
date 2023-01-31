@@ -1,6 +1,7 @@
 #4EB6EF multiblocked:blueprint_table
 #325ABD multiblocked:blueprint_table_part
 #F522F4 minecraft:chest
+#5EF325 mod_id:component_id
 #2CEE8F multiblocked:controller_tester
 #706D0D mysticalagriculture:inferium_furnace
 #8C114A mysticalagriculture:inferium_ingot_block
