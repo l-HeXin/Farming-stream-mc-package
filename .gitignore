@@ -3,3 +3,5 @@ saves/**
 CustomSkinLoader/**
 crash-reports/**
 local/**
+usercache.json
+usernamecache
