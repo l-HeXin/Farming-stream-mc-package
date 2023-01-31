@@ -7,6 +7,6 @@ onEvent('player.logged_in', event => {
     }
   })
 onEvent('recipes',event =>{
-    event.remove({mod: 'mysticalagriculture'})
+    //event.remove({mod: 'mysticalagriculture'})
     event.remove({mod: 'mysticalagradditions'})
 })
