@@ -6,9 +6,6 @@ onEvent('recipes',event =>{
     event.remove({id:'sakura:lumber_bamboo'})
     event.shapeless('sakura:lumber_bamboo', '3x minecraft:bamboo')
     
-    
-    
-    
     //石磨
     event.custom({
         "type": "sakura:stone_mortar",
@@ -22,38 +19,44 @@ onEvent('recipes',event =>{
         ],
         processingTime: 100 //所用时间
     })
+
+    //制作砧板配方
+    event.remove({id:'sakura:chopping_board'})
+    event.shaped('sakura:chopping_board', [
+              'AA',
+              'BB'
+      ], {
+              A: 'sakura:lumber_bamboo',
+              B: 'minecraft:bamboo'
+      })
+
+
+    
     //砧板
     event.custom(
     {
         "type": "sakura:chopping",
-        "ingredient": [
+        "ingredient":
           {
-            "item": "minecraft:cod"
+            "item": 'minecraft:oak_log'
           },
-          {
-            "item": "minecraft:salmon"
-          },
-          {
-            "item": "minecraft:tropical_fish"
-          }
-        ],
         "tool": {
-          "tag": "sakura:tools/knives/fish"
+          "tag": 'forge:axes'
         },
         "result": {
-          "item": 'kubejs:magic_fluid_1_bucket'
+          "item": 'minecraft:oak_planks'
         },
         "byproducts": [
           {
-            "item": 'kubejs:magic_fluid_1_bucket'
+            "item": 'minecraft:oak_planks'
           },
           {
-            "item": "minecraft:bone_meal",
-            "chance": 0.5
+            "item": 'mysticalagriculture:wood_essence',
+            "chance": 0.1
           }
         ],
         "experience": 1.0,
-        "recipeTime": 1
+        "recipeTime": 2
       })
 
 })

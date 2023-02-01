@@ -21,12 +21,22 @@
     "unformed": {
       "renderer": {
         "state": {
-          "id": "minecraft:note_block",
-          "meta": 73
+          "id": "botania:mana_pool",
+          "meta": 1
         },
         "type": "blockstate",
         "postRenderer": true
-      }
+      },
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.5,
+          1.0
+        ]
+      ]
     },
     "idle": {
       "parent": "unformed"
@@ -47,16 +57,16 @@
     ],
     "pattern": [
       [
-        "AAA",
-        "AAA"
+        "A",
+        "B"
       ],
       [
-        "BCA",
-        "@DA"
+        "C",
+        "@"
       ],
       [
-        "AAA",
-        "AAA"
+        "A",
+        "B"
       ]
     ],
     "aisleRepetitions": [
@@ -74,10 +84,14 @@
       ]
     ],
     "predicates": {
+      "": {
+        "capability": "bot_mana",
+        "type": "capability"
+      },
       "A": {
         "blocks": [
           {
-            "id": "mysticalagriculture:inferium_ingot_block"
+            "id": "botania:livingwood"
           }
         ],
         "type": "blocks"
@@ -89,7 +103,7 @@
       "B": {
         "blocks": [
           {
-            "id": "mysticalagriculture:inferium_furnace"
+            "id": "minecraft:chest"
           }
         ],
         "type": "blocks"
@@ -97,15 +111,7 @@
       "C": {
         "blocks": [
           {
-            "id": "mysticalagriculture:prosperity_block"
-          }
-        ],
-        "type": "blocks"
-      },
-      "D": {
-        "blocks": [
-          {
-            "id": "mysticalagriculture:machine_frame"
+            "id": "botania:livingrock"
           }
         ],
         "type": "blocks"
@@ -113,6 +119,7 @@
     },
     "symbolMap": {
       "@": [
+        "",
         "controller"
       ],
       "A": [
@@ -123,9 +130,6 @@
       ],
       "C": [
         "C"
-      ],
-      "D": [
-        "D"
       ]
     }
   }

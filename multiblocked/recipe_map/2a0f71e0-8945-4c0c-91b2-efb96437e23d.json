@@ -4,7 +4,7 @@
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
-      "uid": "2741c4e7-212c-4fbd-aeaa-5e99671ec5b3",
+      "uid": "e3a7c366-6c07-415a-96b4-e035780b433c",
       "duration": 1,
       "inputs": {
         "item": [
@@ -13,9 +13,15 @@
               "type": "multiblocked:sized",
               "count": 1,
               "ingredient": {
-                "item": "minecraft:cobblestone"
+                "item": "minecraft:iron_ingot"
               }
             },
+            "chance": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "content": 200,
             "chance": 1.0
           }
         ]
@@ -27,7 +33,7 @@
               "type": "multiblocked:sized",
               "count": 1,
               "ingredient": {
-                "item": "minecraft:bedrock"
+                "item": "botania:manasteel_ingot"
               }
             },
             "chance": 1.0

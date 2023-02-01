@@ -1,0 +1,258 @@
+{
+  "version": 3,
+  "location": "mbd:alfheim_trade",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "botania:bifrost_pane",
+          "meta": 14
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      },
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.4000000059604645,
+          1.0,
+          1.0,
+          0.6000000238418579
+        ]
+      ]
+    },
+    "idle": {
+      "lightEmissive": 1,
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.4000000059604645,
+          1.0,
+          1.0,
+          0.6000000238418579
+        ]
+      ],
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 15,
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.4000000059604645,
+          1.0,
+          1.0,
+          0.6000000238418579
+        ]
+      ],
+      "parent": "idle"
+    },
+    "suspend": {
+      "lightEmissive": 8,
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.4000000059604645,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "parent": "working"
+    }
+  },
+  "recipeMap": "mbd-alfheim-trade-1",
+  "catalyst": "{Count:1b,id:\"mysticalagriculture:mgaic_essence\"}",
+  "consumeCatalyst": "NOT_CONSUMED",
+  "noNeedController": true,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "ABC",
+        "DEF",
+        "   "
+      ],
+      [
+        "BAG",
+        "HI@",
+        " J "
+      ],
+      [
+        "ABC",
+        "DEF",
+        "   "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "": {
+        "capability": "item",
+        "type": "capability"
+      },
+      "A": {
+        "blocks": [
+          {
+            "id": "botania:livingrock_bricks"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "mbd:alfheim_trade",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "botania:manasteel_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "multiblocked:pedestal"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "botania:natura_pylon"
+          }
+        ],
+        "type": "blocks"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "botania:glimmering_livingwood"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "botania:mana_glass"
+          }
+        ],
+        "type": "blocks"
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "botania:alfheim_portal"
+          }
+        ],
+        "type": "blocks"
+      },
+      "H": {
+        "blocks": [
+          {
+            "id": "botania:livingwood"
+          }
+        ],
+        "type": "blocks"
+      },
+      "I": {
+        "blocks": [
+          {
+            "id": "kubejs:magic_fluid_1"
+          }
+        ],
+        "type": "blocks"
+      },
+      "J": {
+        "blocks": [
+          {
+            "id": "botania:mana_pool"
+          }
+        ],
+        "type": "blocks"
+      },
+      "1": {
+        "capability": "bot_mana",
+        "type": "capability"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "",
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "1",
+        "J"
+      ]
+    }
+  }
+}

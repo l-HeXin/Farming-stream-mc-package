@@ -1,0 +1,45 @@
+{
+  "name": "mbd-alfheim-trade-1",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "f6445495-2abd-480f-b057-2669ff938405",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "botania:manasteel_ingot"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "content": 10000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "botania:elementium_ingot"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

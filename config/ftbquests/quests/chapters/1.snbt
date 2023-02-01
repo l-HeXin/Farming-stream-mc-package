@@ -249,6 +249,17 @@
 				item: "mysticalagriculture:fire_seeds"
 			}]
 		}
+		{
+			x: 8.0d
+			y: -2.0d
+			dependencies: ["41E685E6F5E97943"]
+			id: "4A1CD599A45A86C1"
+			tasks: [{
+				id: "229F0E54CF7946CE"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
